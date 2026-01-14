@@ -72,6 +72,7 @@ require("reppuccin").setup({
 		illuminate = true,
 		bufferline = true,
 		notify = true,
+		supermaven = true,
 	},
 	color_overrides = {},
 	custom_highlights = {},
@@ -125,7 +126,7 @@ require("reppuccin").setup({
 
 ## Integrations
 
-Reppuccin.nvim supports the following plugins:
+Reppuccin.nvim supports following plugins:
 
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
@@ -136,6 +137,7 @@ Reppuccin.nvim supports the following plugins:
 - [vim-illuminate](https://github.com/ellisonleao/vim-illuminate)
 - [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
+- [supermaven-nvim](https://github.com/zkpenguin/supermaven-nvim)
 
 Disable specific integrations:
 
