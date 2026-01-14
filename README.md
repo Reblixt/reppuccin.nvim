@@ -1,12 +1,12 @@
 # Reppuccin.nvim
 
-A pastel theme for Neovim, ported from [Zed](https://github.com/zed-industries/zed).
+> Forked by [catppuccin.nvim](https://github.com/catppuccin/nvim) 
+> Inspired by NvChad's Catppuccin theme
 
-> Inspired by [catppuccin.nvim](https://github.com/catppuccin/nvim) structure
 
 ## Requirements
 
-- Neovim >= 0.11.5
+- Neovim >= 0.8
 
 ## Installation
 
@@ -14,7 +14,7 @@ A pastel theme for Neovim, ported from [Zed](https://github.com/zed-industries/z
 
 ```lua
 {
-	"yourusername/reppuccin.nvim",
+	"reblixt/reppuccin.nvim",
 	name = "reppuccin",
 	priority = 1000,
 	config = function()
@@ -198,5 +198,6 @@ let g:reppuccin_debug = 1
 
 ## Credits
 
-- Original theme: [Reblixt](https://github.com/Reblixt)
+<!-- - Original theme: [Reblixt](https://github.com/Reblixt) -->
 - Inspiration: [catppuccin.nvim](https://github.com/catppuccin/nvim)
+- Inspiration: [NvChad](https://github.com/NvChad/NvChad)
