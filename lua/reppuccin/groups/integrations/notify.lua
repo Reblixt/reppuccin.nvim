@@ -2,11 +2,12 @@ local M = {}
 
 function M.get()
 	return {
-		NotifyERRORBorder = { fg = C.error },
-		NotifyWARNBorder = { fg = C.warning },
-		NotifyINFOBorder = { fg = C.info },
-		NotifyDEBUGBorder = { fg = C.overlay0 },
-		NotifyTRACEBorder = { fg = C.mauve },
+		NotifyBackground = { bg = C.base },
+		NotifyERRORBorder = { fg = C.error, bg = C.base },
+		NotifyWARNBorder = { fg = C.warning, bg = C.base },
+		NotifyINFOBorder = { fg = C.info, bg = C.base },
+		NotifyDEBUGBorder = { fg = C.overlay0, bg = C.base },
+		NotifyTRACEBorder = { fg = C.mauve, bg = C.base },
 		NotifyERRORIcon = { fg = C.error },
 		NotifyWARNIcon = { fg = C.warning },
 		NotifyINFOIcon = { fg = C.info },
@@ -17,11 +18,11 @@ function M.get()
 		NotifyINFOTitle = { fg = C.info, style = { "bold" } },
 		NotifyDEBUGTitle = { fg = C.overlay0, style = { "bold" } },
 		NotifyTRACETitle = { fg = C.mauve, style = { "bold" } },
-		NotifyERRORBody = { fg = C.text },
-		NotifyWARNBody = { fg = C.text },
-		NotifyINFOBody = { fg = C.text },
-		NotifyDEBUGBody = { fg = C.text },
-		NotifyTRACEBody = { fg = C.text },
+		NotifyERRORBody = { fg = C.text, bg = C.base },
+		NotifyWARNBody = { fg = C.text, bg = C.base },
+		NotifyINFOBody = { fg = C.text, bg = C.base },
+		NotifyDEBUGBody = { fg = C.text, bg = C.base },
+		NotifyTRACEBody = { fg = C.text, bg = C.base },
 	}
 end
 

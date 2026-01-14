@@ -35,7 +35,7 @@ function M.get()
 		BlinkCmpKindFile = { fg = C.blue },
 		BlinkCmpKindReference = { fg = C.text },
 		BlinkCmpKindFolder = { fg = C.blue },
-		BlinkCmpGhostText = { fg = C.overlay0, style = { "italic" } },
+		BlinkCmpGhostText = { fg = "#4c4c55", style = { "italic" } },
 	}
 end
 

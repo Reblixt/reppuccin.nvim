@@ -18,12 +18,12 @@ function M.get()
 		LspReferenceWrite = { bg = C.surface1 },
 
 		DiagnosticVirtualTextError = {
-			bg = O.transparent_background and C.none or U.darken(error, darkening_percentage, C.base),
+			bg = C.none,
 			fg = error,
 			style = virtual_text.errors,
 		},
 		DiagnosticVirtualTextWarn = {
-			bg = O.transparent_background and C.none or U.darken(warning, darkening_percentage, C.base),
+			bg = C.none,
 			fg = warning,
 			style = virtual_text.warnings,
 		},
