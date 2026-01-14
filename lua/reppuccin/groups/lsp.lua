@@ -13,9 +13,9 @@ function M.get()
 	local darkening_percentage = 0.095
 
 	return {
-		LspReferenceText = { bg = "#7e9cd820" },
-		LspReferenceRead = { bg = "#7e9cd820" },
-		LspReferenceWrite = { bg = "#7e9cd830" },
+		LspReferenceText = { bg = C.surface1 },
+		LspReferenceRead = { bg = C.surface1 },
+		LspReferenceWrite = { bg = C.surface1 },
 
 		DiagnosticVirtualTextError = {
 			bg = O.transparent_background and C.none or U.darken(error, darkening_percentage, C.base),
@@ -43,11 +43,11 @@ function M.get()
 			style = virtual_text.ok,
 		},
 
-		DiagnosticError = { bg = "#d8616b20", fg = error, style = virtual_text.errors },
-		DiagnosticWarn = { bg = "#ff9e6420", fg = warning, style = virtual_text.warnings },
-		DiagnosticInfo = { bg = "#7e9cd820", fg = info, style = virtual_text.information },
-		DiagnosticHint = { bg = "#4c4c55", fg = hint, style = virtual_text.hints },
-		DiagnosticOk = { bg = "#98bb6c20", fg = ok, style = virtual_text.ok },
+		DiagnosticError = { fg = error },
+		DiagnosticWarn = { fg = warning },
+		DiagnosticInfo = { fg = info },
+		DiagnosticHint = { fg = hint },
+		DiagnosticOk = { fg = ok },
 
 		DiagnosticUnderlineError = { style = underlines.errors, sp = error },
 		DiagnosticUnderlineWarn = { style = underlines.warnings, sp = warning },

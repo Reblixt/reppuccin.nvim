@@ -200,4 +200,3 @@ let g:reppuccin_debug = 1
 
 <!-- - Original theme: [Reblixt](https://github.com/Reblixt) -->
 - Inspiration: [catppuccin.nvim](https://github.com/catppuccin/nvim)
-- Inspiration: [NvChad](https://github.com/NvChad/NvChad)
