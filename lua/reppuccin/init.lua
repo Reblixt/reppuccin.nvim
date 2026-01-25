@@ -61,6 +61,7 @@ local M = {
 			bufferline = true,
 			notify = true,
 			supermaven = true,
+			mini = true,
 		},
 		color_overrides = {},
 		highlight_overrides = {},

@@ -35,8 +35,10 @@ function M.get_palette()
 		info = "#7e9cd8",
 		hint = "#4c4c55",
 		ok = "#98bb6c",
-		
+
 		orange = "#FFA066",
+
+		unused = "#565f89",
 	}
 end
 

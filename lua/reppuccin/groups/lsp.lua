@@ -10,7 +10,6 @@ function M.get()
 	local info = C.info
 	local hint = C.hint
 	local ok = C.ok
-	local darkening_percentage = 0.095
 
 	return {
 		LspReferenceText = { bg = C.surface1 },
@@ -25,20 +24,20 @@ function M.get()
 		DiagnosticVirtualTextWarn = {
 			bg = C.none,
 			fg = warning,
-			style = virtual_text.warnings,
+			style = {},
 		},
 		DiagnosticVirtualTextInfo = {
-			bg = O.transparent_background and C.none or U.darken(info, darkening_percentage, C.base),
+			bg = C.none,
 			fg = info,
 			style = virtual_text.information,
 		},
 		DiagnosticVirtualTextHint = {
-			bg = O.transparent_background and C.none or U.darken(hint, darkening_percentage, C.base),
+			bg = C.none,
 			fg = hint,
 			style = virtual_text.hints,
 		},
 		DiagnosticVirtualTextOk = {
-			bg = O.transparent_background and C.none or U.darken(hint, darkening_percentage, C.base),
+			bg = C.none,
 			fg = ok,
 			style = virtual_text.ok,
 		},
@@ -67,10 +66,14 @@ function M.get()
 		DiagnosticSignHint = { fg = hint },
 		DiagnosticSignOk = { fg = ok },
 
+		DiagnosticUnnecessary = { fg = C.unused },
+		DiagnosticVirtualTextUnnecessary = { fg = C.unused },
+
 		LspDiagnosticsDefaultError = { fg = error },
 		LspDiagnosticsDefaultWarning = { fg = warning },
 		LspDiagnosticsDefaultInformation = { fg = info },
 		LspDiagnosticsDefaultHint = { fg = hint },
+
 		LspSignatureActiveParameter = { bg = C.surface0, style = { "bold" } },
 
 		LspDiagnosticsError = { fg = error },
@@ -92,6 +95,9 @@ function M.get()
 			bg = (O.transparent_background or not inlay_hints.background) and C.none or C.surface0,
 		},
 		LspInfoBorder = { link = "FloatBorder" },
+
+		tspLuaDiagnosticWarn = { fg = warning, bg = C.none },
+		tscDiagnosticWarning = { fg = warning, bg = C.none },
 	}
 end
 

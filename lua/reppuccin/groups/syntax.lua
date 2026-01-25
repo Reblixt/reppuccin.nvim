@@ -26,7 +26,7 @@ function M.get()
 		Macro = { fg = C.error },
 		PreCondit = { link = "PreProc" },
 
-		StorageClass = { fg = C.peach },
+		StorageClass = { fg = C.mauve },
 		Structure = { fg = C.peach },
 		Special = { fg = C.pink },
 		Type = { fg = C.peach, style = O.styles.types or {} },
