@@ -62,6 +62,7 @@ local M = {
 			notify = true,
 			supermaven = true,
 			mini = true,
+			lualine = true,
 		},
 		color_overrides = {},
 		highlight_overrides = {},
@@ -121,5 +122,15 @@ if vim.g.reppuccin_debug then
 		end,
 	})
 end
+
+vim.api.nvim_create_autocmd("ColorScheme", {
+	pattern = "reppuccin",
+	callback = function()
+		local O = require("reppuccin").options
+		if O.integrations.lualine then
+			pcall(require("reppuccin.special.lualine").apply)
+		end
+	end,
+})
 
 return M
