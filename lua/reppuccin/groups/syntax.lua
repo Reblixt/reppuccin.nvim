@@ -27,7 +27,7 @@ function M.get()
 		PreCondit = { link = "PreProc" },
 
 		StorageClass = { fg = C.mauve },
-		Structure = { fg = C.peach },
+		Structure = { fg = C.orange },
 		Special = { fg = C.pink },
 		Type = { fg = C.peach, style = O.styles.types or {} },
 		Typedef = { link = "Type" },
