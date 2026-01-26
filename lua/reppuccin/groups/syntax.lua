@@ -29,6 +29,7 @@ function M.get()
 		StorageClass = { fg = C.mauve },
 		Structure = { fg = C.orange },
 		Special = { fg = C.pink },
+		typescriptDecorator = { fg = C.yellow },
 		Type = { fg = C.peach, style = O.styles.types or {} },
 		Typedef = { link = "Type" },
 		SpecialChar = { link = "Special" },
