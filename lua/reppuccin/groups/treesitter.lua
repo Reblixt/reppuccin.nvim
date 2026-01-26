@@ -265,6 +265,19 @@ function M.get()
 		["@comment.rust"] = { link = "Comment" },
 		["@punctuation.delimiter.rust"] = { link = "Delimiter" },
 		["@property.rust"] = { fg = C.error, style = O.styles.properties or {} },
+
+		["@keyword.prisma"] = { link = "Keyword" },
+		["@type.prisma"] = { fg = C.peach, style = O.styles.types or {} },
+		["@type.builtin.prisma"] = { fg = C.blue },
+		["@attribute.prisma"] = { fg = C.blue },
+		["@property.prisma"] = { fg = C.text },
+		["@string.prisma"] = { link = "String" },
+		["@comment.prisma"] = { link = "Comment" },
+		["@number.prisma"] = { link = "Number" },
+		["@boolean.prisma"] = { link = "Boolean" },
+		["@operator.prisma"] = { link = "Operator" },
+		["@punctuation.delimiter.prisma"] = { link = "Delimiter" },
+		["@constructor.prisma"] = { fg = C.mauve },
 	}
 
 	colors["@parameter"] = colors["@variable.parameter"]
