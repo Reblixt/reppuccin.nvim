@@ -14,7 +14,7 @@ function M.get_palette()
 		surface0 = "#2a2e38",
 		surface1 = "#2e3440",
 		surface2 = "#292e3c",
-		
+
 		red = "#d8616b",
 		maroon = "#d8616b",
 		peach = "#F4BB5C",
@@ -29,7 +29,7 @@ function M.get_palette()
 		pink = "#d8616b",
 		flamingo = "#d8616b",
 		rosewater = "#c8c3a6",
-		
+
 		error = "#d8616b",
 		warning = "#ff9e64",
 		info = "#7e9cd8",
