@@ -31,6 +31,7 @@ function M.get()
 		["@lsp.type.method.rust"] = { link = "@function.method.rust" },
 		["@lsp.type.parameter.rust"] = { link = "@variable.parameter.rust" },
 		["@lsp.type.property.rust"] = { link = "@property.rust" },
+		["@lsp.type.macro.rust"] = { link = "@macro.rust" },
 		["@lsp.typemod.variable.defaultLibrary.rust"] = { link = "@variable.builtin.rust" },
 		["@lsp.typemod.variable.readonly.rust"] = { style = { "nocombine" } },
 		["@lsp.typemod.class.defaultLibrary"] = { link = "@type.builtin" },

@@ -243,6 +243,7 @@ function M.get()
 		rustAttribute = { fg = C.peach },
 		rustDeriveTrait = { fg = C.pink },
 		rustBuiltinType = { fg = C.peach },
+		rustFoldBraces = { fg = C.mauve },
 
 		["@keyword.rust"] = { link = "Keyword" },
 		["@keyword.function.rust"] = { fg = C.mauve, style = O.styles.keywords or {} },
@@ -257,7 +258,7 @@ function M.get()
 		["@function.method.call.rust"] = { link = "Function" },
 		["@function.builtin.rust"] = { fg = C.blue, style = { "bold" } },
 		["@attribute.rust"] = { link = "Constant" },
-		["@macro.rust"] = { fg = C.blue },
+		["@macro.rust"] = { fg = C.red },
 		["@operator.rust"] = { link = "Operator" },
 		["@string.rust"] = { link = "String" },
 		["@number.rust"] = { link = "Number" },
@@ -278,6 +279,10 @@ function M.get()
 		["@operator.prisma"] = { link = "Operator" },
 		["@punctuation.delimiter.prisma"] = { link = "Delimiter" },
 		["@constructor.prisma"] = { fg = C.mauve },
+
+		solEvent = { fg = C.mauve },
+		solContract = { fg = C.mauve },
+		solBuiltinType = { fg = C.blue },
 	}
 
 	colors["@parameter"] = colors["@variable.parameter"]
