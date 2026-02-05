@@ -54,7 +54,7 @@ function M.get()
 		["@keyword.type"] = { link = "Keyword" },
 		["@keyword.coroutine"] = { link = "Keyword" },
 		["@keyword.function"] = { fg = C.mauve, style = O.styles.keywords or {} },
-		["@keyword.operator"] = { fg = C.text },
+		["@keyword.operator"] = { fg = C.mauve },
 		["@keyword.import"] = { fg = C.blue, style = { "italic" } },
 		["@keyword.repeat"] = { link = "Repeat" },
 		["@keyword.return"] = { fg = C.mauve, style = O.styles.keywords or {} },
