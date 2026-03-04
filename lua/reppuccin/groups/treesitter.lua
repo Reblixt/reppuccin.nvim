@@ -145,6 +145,8 @@ function M.get()
 		["@markup.heading.5.html"] = { link = "@markup" },
 		["@markup.heading.6.html"] = { link = "@markup" },
 
+		-- ["@spell.html"] = { fg = C.mauve },
+
 		["@constant.java"] = { fg = C.sky },
 
 		["@property.css"] = { fg = C.blue },
