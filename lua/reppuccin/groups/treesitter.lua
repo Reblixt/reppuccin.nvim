@@ -121,7 +121,7 @@ function M.get()
 		["@diff.delta"] = { link = "diffChanged" },
 
 		["@tag"] = { fg = C.peach },
-		["@tag.builtin"] = { fg = C.sky },
+		["@tag.builtin"] = { fg = C.pink },
 		["@tag.attribute"] = { fg = C.blue },
 		["@tag.delimiter"] = { fg = "#9aa5ce" },
 
